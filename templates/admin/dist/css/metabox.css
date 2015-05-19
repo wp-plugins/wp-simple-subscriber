@@ -1,0 +1,69 @@
+
+
+.cf,
+.WPSS_plugin_options_form .inside {
+	zoom: 1;
+}
+.cf:before,
+.cf:after,
+.WPSS_plugin_options_form .inside:before,
+.WPSS_plugin_options_form .inside:after {
+	content: "";
+	display: table;
+}
+.cf:after,
+.WPSS_plugin_options_form .inside:after {
+	clear: both;
+}
+
+
+/* ----------------------------------------------------------------------- */
+
+
+/* -- General -- */
+.WPSS_post_box .field,
+.WPSS_plugin_options_form .field {
+	margin: 1rem 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing   : border-box;
+	-o-box-sizing     : border-box;
+	-ms-box-sizing    : border-box;
+	box-sizing        : border-box;
+}
+.WPSS_post_box .field.field--left,
+.WPSS_post_box .field.field--right,
+.WPSS_plugin_options_form .field.field--left,
+.WPSS_plugin_options_form .field.field--right {
+	width: 50%;
+	margin: 0;
+}
+.WPSS_post_box .field.field--left,
+.WPSS_plugin_options_form .field.field--left {
+	padding-right: 1rem;
+	float: left;
+}
+.WPSS_post_box .field.field--right,
+.WPSS_plugin_options_form .field.field--right {
+	padding-left: 1rem;
+	float: right;
+}
+
+.WPSS_post_box label,
+.WPSS_post_box input[type="text"],
+.WPSS_post_box input[type="email"],
+.WPSS_post_box input[type="url"],
+.WPSS_post_box select,
+.WPSS_post_box textarea,
+.WPSS_plugin_options_form label,
+.WPSS_plugin_options_form input[type="text"],
+.WPSS_plugin_options_form input[type="email"],
+.WPSS_plugin_options_form input[type="url"],
+.WPSS_plugin_options_form select,
+.WPSS_plugin_options_form textarea {
+	display: block;
+}
+.WPSS_post_box label,
+.WPSS_plugin_options_form label {
+	margin-bottom: 5px;
+	font-weight: bold;
+}
